@@ -21,7 +21,10 @@ public class Bruxa extends Monstro{
     }
 
     public void listarFeiticos(){
-
+        for (int i = 0; i < feiticos.length; i++) {
+            if(feiticos[i] != null)
+                System.out.println(feiticos[i].toString());
+        }
     }
 
     public void esquecerFeitico(int posicao){

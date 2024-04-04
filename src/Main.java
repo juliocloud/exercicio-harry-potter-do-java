@@ -5,5 +5,7 @@ public class Main {
 
         Bruxa belatrix = new Bruxa(20, 100, 90);
         belatrix.aprenderFeitico("Expeliarmos", 10);
+
+        belatrix.listarFeiticos();
     }
 }

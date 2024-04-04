@@ -7,6 +7,14 @@ public class Feitico {
         this.poder = poder;
     }
 
+    @Override
+    public String toString() {
+        return "Feitico{" +
+                "nome='" + nome + '\'' +
+                ", poder=" + poder +
+                '}';
+    }
+
     public String getNome() {
         return nome;
     }
